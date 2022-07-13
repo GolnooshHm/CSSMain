@@ -1,10 +1,10 @@
  @font-face {
     font-family: 'Roboto-Bold';
-    src: url(Fonts/Roboto-Bold.ttf) format(truetype);
+    src: url(Fonts/Roboto-Bold.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Lightitalic';
-    src: url(Fonts/Roboto-LightItalic.ttf) format(truetype);
+    src: url(Fonts/Roboto-LightItalic.ttf) format('truetype');
 } 
 nav{
   height: 70px;
@@ -28,7 +28,7 @@ body {
   #infoHeader {
     color: #1F2937;
     font-size: 36px;
-    font-weight: 800;
+    font-family: 'Roboto-Bold', sans-serif;
   }
   .quote {
       font-size: 36px;
@@ -42,8 +42,9 @@ body {
   #SecQuote{
     height: 400px;
     align-items: center;
+    font-family: 'Lightitalic', sans-serif;
+    font-size: 36px;
   }
-
   .bgcolorQuote {
     background-color: #E5E7EB;
   }
@@ -51,7 +52,6 @@ body {
     height: 400px;
     align-items: center;
   }
-  
   .CTAbgcolor {
     background-color: #3882F6;
   }
@@ -86,8 +86,7 @@ body {
 #MainText{
   font-size: 48px;
   color: #F9FAF8;
-  font-weight: 800;
-  
+  font-weight: 800; 
 }
 #mainImage {
   height: auto;
