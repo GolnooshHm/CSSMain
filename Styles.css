@@ -90,7 +90,9 @@ body {
   margin-bottom: 50px;
 }
 .footer {
-  color: white
+  color: white;
+  height: 50px;
+  text-align: center;
 }
 .imagesize{
   width: 200px;
