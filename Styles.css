@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(Fonts/Roboto-Bold.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Lightitalic';
+    src: url(Fonts/Roboto-LightItalic.ttf) format(truetype);
+}
+
+/* section {
+     width: 75%;
+} */
+.button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+
+
+nav{
+  height: 60px;
+  justify-content: space-evenly;
+}
+
+.Hero-Main-text {
+    font-size: 48px;
+    font-family: 'Roboto-Bold', sans-serif;
+    color: #F9FAF8;
+   
+}
+
+.Hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.container {
+    width: 70%;
+    height: 200px;
+    padding: 150px;
+    margin: 100px;
+    background-color: #1f2937;
+    color: white;
+    
+}
+.Header-Logo-text{
+ 
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family:'Roboto-Black' sans-serif ;
+    
+}
+.secondHeader{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+}
+.flex-container1 {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin:  10%;
+}
+
+  .textFlex {
+    display: block;
+  }
+  .container2 {
+    background-color:#c2c3c5 ;
+    color: #1F2937;
+    font-size: 36PX;
+    font-family: 'Lightitalic' sans-serif;
+  }
+
+  #CTA {
+    height: 200px;
+    width: 800px;
+    align-items: center;
+  }
+
+  .Footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    height: 100px;
+    width: 75%;
+    margin-left: 20px;
+  }
+  .Image {
+    border-radius: 5px;
+  }
+  .flexcontainer1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  #infoHeader {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+  }
+  .quote {
+      font-size: 36px;
+      /* font-style: italic; */
+      font-weight: 300;
+      color: #1F2937;
+  }
+  .flex {
+    display: flex;
+  }
+  #SecQuote{
+    height: 400px;
+    align-items: center;
+  }
+
+  .bgcolorQuote {
+    background-color: #E5E7EB;
+  }
+  #SectionCTA {
+    height: 200px;
+    width: 800px;
+    align-items: center;
+  }
+  .Textwhite {
+    color: #F9FAF8;
+  }
+  .CTAbgcolor {
+    background-color: #3882F6;
+  }
+  .signup-btn{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 30px;
+    width: 100px;
+}
+.DarkBlue {
+    background-color: #1F2937;
+}
+.marginright {
+  margin-right: 100px;
+}
+.White {
+  color: #f1f1f1;
+}
+#textLogo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+.LinksText{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+#mainsection{
+  align-items: center;
+  height: 350px;
+}
+#MainText{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 800;
+}
+#mainImage {
+  height: auto;
+  width: 250px;
+}
