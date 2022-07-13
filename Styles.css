@@ -7,7 +7,7 @@
     src: url(Fonts/Roboto-LightItalic.ttf) format('truetype');
 } 
 nav{
-  height: 70px;
+  height: 60px;
   justify-content: space-evenly;
 }
 body {
@@ -30,12 +30,6 @@ body {
     font-size: 36px;
     font-family: 'Roboto-Bold', sans-serif;
   }
-  .quote {
-      font-size: 36px;
-       font-style: italic; 
-      font-weight: 300;
-      color: #1F2937;
-  } 
   .flex {
     display: flex;
   }
