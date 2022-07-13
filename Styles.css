@@ -99,3 +99,7 @@ body {
 .footer {
   color: white
 }
+.imagesize{
+  width: 200px;
+  height: 200px;
+}
