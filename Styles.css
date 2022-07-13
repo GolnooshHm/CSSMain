@@ -13,43 +13,43 @@ nav{
 body {
   font-family: 'Roboto';
 }
-  #CTA {
+#CTA {
     height: 200px;
     width: 800px;
     align-items: center;
   }
-  .Image {
+.Image {
     border-radius: 5px;
   }
-  .flexcontainer1 {
+.flexcontainer1 {
     display: flex;
     justify-content: space-around;
   }
-  #infoHeader {
+#infoHeader {
     color: #1F2937;
     font-size: 36px;
     font-family: 'Roboto-Bold', sans-serif;
   }
-  .flex {
+.flex {
     display: flex;
   }
-  #SecQuote{
+#SecQuote{
     height: 400px;
     align-items: center;
     font-family: 'Lightitalic', sans-serif;
     font-size: 36px;
   }
-  .bgcolorQuote {
+.bgcolorQuote {
     background-color: #E5E7EB;
   }
-  #SectionCTA {
+#SectionCTA {
     height: 400px;
     align-items: center;
   }
-  .CTAbgcolor {
+.CTAbgcolor {
     background-color: #3882F6;
   }
-  .signup-btn{
+.signup-btn{
     background-color: #3882F6;
     color: #F9FAF8;
     height: 30px;
@@ -98,5 +98,8 @@ body {
 .imagesize{
   width: 200px;
   height: 200px;
+}
+.figtext {
+  text-align: center;
 }
 
