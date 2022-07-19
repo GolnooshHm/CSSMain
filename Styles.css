@@ -1,105 +1,134 @@
  @font-face {
-    font-family: 'Roboto-Bold';
-    src: url(Fonts/Roboto-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Lightitalic';
-    src: url(Fonts/Roboto-LightItalic.ttf) format('truetype');
-} 
-nav{
-  height: 60px;
-  justify-content: space-evenly;
-}
-body {
-  font-family: 'Roboto';
-}
-#CTA {
-    height: 200px;
-    width: 800px;
-    align-items: center;
-  }
-.Image {
-    border-radius: 5px;
-  }
-.flexcontainer1 {
-    display: flex;
-    justify-content: space-around;
-  }
-#infoHeader {
-    color: #1F2937;
-    font-size: 36px;
-    font-family: 'Roboto-Bold', sans-serif;
-  }
-.flex {
-    display: flex;
-  }
-#SecQuote{
-    height: 400px;
-    align-items: center;
-    font-family: 'Lightitalic', sans-serif;
-    font-size: 36px;
-  }
-.bgcolorQuote {
-    background-color: #E5E7EB;
-  }
-#SectionCTA {
-    height: 400px;
-    align-items: center;
-  }
-.CTAbgcolor {
-    background-color: #3882F6;
-  }
-.signup-btn{
-    background-color: #3882F6;
-    color: #F9FAF8;
-    height: 30px;
-    width: 100px;
-    border-radius: 5px;
-}
-.DarkBlue {
-    background-color: #1F2937;
-}
-.marginright {
-  margin-right: 100px;
-}
-.White {
-  color: #f1f1f1;
-}
-#textLogo {
-  font-size: 24px;
-  color: #F9FAF8;
-}
-.LinksText{
-  font-size: 18px;
-  color: #E5E7EB;
-  text-decoration: none;
-}
-#mainsection{
-  align-items: center;
-  height: 300px;
-}
-#MainText{
-  font-size: 48px;
-  color: #F9FAF8;
-  font-weight: 800; 
-}
-#mainImage {
-  height: auto;
-  width: 250px;
-}
-.marginbtm {
-  margin-bottom: 50px;
-}
-.footer {
-  color: white;
-  height: 50px;
-  text-align: center;
-}
-.imagesize{
-  width: 200px;
-  height: 200px;
-}
-.figtext {
-  text-align: center;
-}
+   font-family: 'Roboto-Bold';
+   src: url(Fonts/Roboto-Bold.ttf) format('truetype');
+ }
 
+ @font-face {
+   font-family: 'Lightitalic';
+   src: url(Fonts/Roboto-LightItalic.ttf) format('truetype');
+ }
+
+ nav {
+   height: 60px;
+   justify-content: space-evenly;
+ }
+
+ body {
+   font-family: 'Roboto';
+ }
+
+ #CTA {
+   height: 200px;
+   width: 800px;
+   align-items: center;
+ }
+
+ .Image {
+   border-radius: 5px;
+ }
+ .flexcontainer1 {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ #infoHeader {
+   color: #1F2937;
+   font-size: 36px;
+   font-family: 'Roboto-Bold', sans-serif;
+ }
+
+ .flex {
+   display: flex;
+ }
+
+ #SecQuote {
+   height: 400px;
+   align-items: center;
+   font-family: 'Lightitalic', sans-serif;
+   font-size: 36px;
+ }
+
+ .bgcolorQuote {
+   background-color: #E5E7EB;
+ }
+
+ #SectionCTA {
+   height: 400px;
+   align-items: center;
+ }
+
+ .CTAbgcolor {
+   background-color: #3882F6;
+ }
+
+ .signup-btn {
+   background-color: #3882F6;
+   color: #F9FAF8;
+   height: 30px;
+   width: 100px;
+   border-radius: 5px;
+
+ }
+
+ .DarkBlue {
+   background-color: #1F2937;
+ }
+
+ .marginright {
+   margin-right: 100px;
+ }
+
+ .White {
+   color: #f1f1f1;
+ }
+
+ #textLogo {
+   font-size: 24px;
+   color: #F9FAF8;
+ }
+
+ .LinksText {
+   font-size: 18px;
+   color: #E5E7EB;
+   padding: 10px;
+
+ }
+
+ #mainsection {
+   align-items: center;
+   height: 300px;
+ }
+
+ #MainText {
+   font-size: 48px;
+   color: #F9FAF8;
+   font-weight: 800;
+ }
+
+ #mainImage {
+   height: auto;
+   width: 250px;
+ }
+
+ .marginbtm {
+   margin-bottom: 50px;
+ }
+
+ .footer {
+   color: white;
+   height: 50px;
+   text-align: center;
+ }
+
+ .imagesize {
+   width: 200px;
+   height: 200px;
+ }
+
+ .figtext {
+   text-align: center;
+ }
+
+ #liststyle {
+   list-style: none;
+ }
